@@ -15,7 +15,7 @@
         <activity android:name=".OnboardingTwoActivity" />
         <activity android:name=".OnboardingOneActivity" />
         <activity android:name=".SplashScreenActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
