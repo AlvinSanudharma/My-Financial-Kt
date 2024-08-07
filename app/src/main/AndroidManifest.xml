@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".SignupActivity" />
         <activity android:name=".SigninActivity" />
         <activity android:name=".OnboardingThreeActivity" />
         <activity android:name=".OnboardingTwoActivity" />
         <activity android:name=".OnboardingOneActivity" />
         <activity android:name=".SplashScreenActivity" />
-        <activity android:name=".HomeActivity">
+        <activity android:name=".HomeActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
